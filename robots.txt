@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kulanapetrovich.com/sitemap.xml
