@@ -4,10 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kulana Nguyen Petrovich: Made for More</title>
-<meta name="description" content="Kulana Nguyen Petrovich: entrepreneur, investor, philanthropist, connector, and woman of faith. Made for more.">
+<meta name="description" content="Kulana Nguyen Petrovich, for the woman rebuilding her life, her faith, and her ambition. Entrepreneur, investor, philanthropist, connector, and woman of faith.">
 <meta property="og:title" content="Kulana Nguyen Petrovich: Made for More">
-<meta property="og:description" content="Entrepreneur. Investor. Philanthropist. Connector. Woman of Faith.">
+<meta property="og:description" content="For the woman rebuilding her life, her faith, and her ambition. Made for more.">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://kulana-brand.vercel.app/">
+<meta property="og:image" content="https://kulana-brand.vercel.app/assets/kulana-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23150F1E'/%3E%3Ctext x='50' y='73' font-family='Georgia,serif' font-size='66' fill='%23EBCB86' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,500;1,9..144,600;1,9..144,900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -184,9 +188,36 @@ footer .fbrand{font-family:var(--serif);font-size:24px;color:var(--cream)}
 footer .froles{font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted);margin:14px 0 20px}
 footer .fcopy{font-size:12px;color:#6a6053}
 
+/* --- TA enhancements --- */
+.reader{margin-top:16px;font-family:var(--serif);font-style:italic;font-weight:500;font-size:17px;color:var(--gold-soft);border-left:2px solid var(--gold);padding-left:16px}
+.waitlist{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;margin-top:56px;padding:34px 40px;border:1px solid var(--line);border-radius:16px;background:linear-gradient(180deg,var(--panel),rgba(21,15,30,.5))}
+.waitlist h3{font-size:26px;margin-bottom:8px}
+.waitlist p{font-size:15px;color:var(--muted);max-width:540px}
+.testimonials{background:var(--ink2);border-top:1px solid var(--line)}
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
+.tcard{background:linear-gradient(180deg,var(--panel),#160F26);border:1px solid var(--line);border-radius:14px;padding:34px 30px}
+.tcard blockquote{font-family:var(--serif);font-style:italic;font-size:20px;line-height:1.42;color:var(--cream);margin-bottom:20px}
+.tcard figcaption{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.foryou{border-top:1px solid var(--line)}
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:52px}
+.rcard{display:block;padding:34px 30px;border:1px solid var(--line);border-radius:14px;font-family:var(--serif);font-size:24px;line-height:1.15;color:var(--cream);transition:.35s;background:linear-gradient(180deg,var(--panel),#160F26)}
+.rcard:hover{border-color:var(--gold);transform:translateY(-6px);color:var(--gold-br)}
+.rcard span{display:block;margin-top:16px;font-family:var(--sans);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft)}
+.joinform{display:flex;gap:12px;max-width:520px;margin:34px auto 0;flex-wrap:wrap;justify-content:center}
+.joinform input{flex:1;min-width:220px;padding:16px 20px;background:rgba(246,241,230,.06);border:1px solid var(--line);border-radius:8px;color:var(--cream);font-family:var(--sans);font-size:15px}
+.joinform input::placeholder{color:var(--muted)}
+.joinform input:focus{outline:none;border-color:var(--gold)}
+.joinnote{margin-top:18px;font-size:13px;color:var(--muted)}
+.fsocial{display:flex;gap:26px;justify-content:center;margin-bottom:18px}
+.fsocial a{font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);transition:.3s}
+.fsocial a:hover{color:var(--gold-br)}
+.mobile-join{display:none}
 @media(max-width:900px){
   .nav-links{display:none}
   .menu-btn{display:block}
+  .tgrid,.rgrid{grid-template-columns:1fr}
+  .waitlist{flex-direction:column;align-items:flex-start}
+  .mobile-join{display:block;position:fixed;left:16px;right:16px;bottom:16px;z-index:45;text-align:center;padding:15px;background:var(--gold);color:var(--ink);font-family:var(--sans);font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:12px;border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,.55)}
   .hero h1{font-size:clamp(52px,17vw,96px)}
   .ngrid{grid-template-columns:repeat(2,1fr)}
   .nstat{border-left:0;border-top:1px solid var(--line)}.nstat:first-child,.nstat:nth-child(2){border-top:0}
@@ -233,7 +264,7 @@ footer .fcopy{font-size:12px;color:#6a6053}
     <div class="eyebrow kick">Kulana Nguyen Petrovich</div>
     <h1>Made for <span class="m">more.</span></h1>
     <div class="name">Entrepreneur · Investor · Philanthropist · Connector · Woman of Faith</div>
-    <p class="lede">Building companies, communities, and second chances, and reaching back to help someone else rise.</p>
+    <p class="lede"><b style="color:var(--cream);font-weight:600">For the woman rebuilding her life, her faith, and her ambition.</b> I build companies, communities, and second chances, and I reach back to help someone else rise.</p>
     <div class="cta-row">
       <a href="#story" class="btn solid">My Story</a>
       <a href="#ventures" class="btn">The Ventures</a>
@@ -246,6 +277,7 @@ footer .fcopy{font-size:12px;color:#6a6053}
 <section class="manifesto pad">
   <div class="wrap reveal">
     <p class="big">I build things that don't yet exist. <em>Companies, communities, and comebacks.</em></p>
+    <p style="margin:26px auto 0;max-width:680px;font-size:16px;letter-spacing:.02em;color:var(--muted)">Freedom creates opportunity. Opportunity creates responsibility. And faith turns both into purpose.</p>
   </div>
 </section>
 
@@ -294,7 +326,7 @@ footer .fcopy{font-size:12px;color:#6a6053}
   <div class="chapter reveal">
     <div class="c-media"><span class="cnum">05</span><div class="imgfill" data-img="003"></div></div>
     <div class="c-body"><div class="label-xl">When my own world changed</div><h3>In the stillness, my ambition found a clearer purpose</h3>
-    <p>The hardest trial of my life came through the unexpected breakdown of my marriage, something I could not solve with another business plan. For months, I stopped. In that stillness I prayed, I listened, and I grew closer to God. My trials did not end my ambition. They gave it a clearer <span class="lastword">purpose.</span></p></div>
+    <p>The hardest trial of my life came through the unexpected breakdown of my marriage, something I could not solve with another business plan. For months, I stopped. In that stillness I prayed, I listened, and I grew closer to God. My trials did not end my ambition. They gave it a clearer <span class="lastword">purpose.</span></p><p class="reader">If you are in a season of stillness, it is not the end of your ambition. It may be exactly where your real purpose begins.</p></div>
   </div>
 
   <div class="chapter flip reveal">
@@ -306,7 +338,7 @@ footer .fcopy{font-size:12px;color:#6a6053}
   <div class="chapter reveal">
     <div class="c-media"><span class="cnum">07</span><div class="imgfill" data-img="048"></div></div>
     <div class="c-body"><div class="label-xl">The woman they couldn't erase</div><h3>Nothing has the authority to decide your worth</h3>
-    <p>You can lose a relationship, money, a company, the future you planned. None of it has the authority to decide your worth. The woman beneath the titles is still there, and she is stronger, wiser, and more purposeful than the woman who came <span class="lastword">before.</span></p></div>
+    <p>You can lose a relationship, money, a company, the future you planned. None of it has the authority to decide your worth. The woman beneath the titles is still there, and she is stronger, wiser, and more purposeful than the woman who came <span class="lastword">before.</span></p><p class="reader">Whatever you have lost, your worth was never inside it. The woman underneath is still here, and she is made for more.</p></div>
   </div>
 </section>
 
@@ -342,13 +374,26 @@ footer .fcopy{font-size:12px;color:#6a6053}
   </div>
 </section>
 
+<!-- TESTIMONIALS (replace with real quotes from women Kulana has mentored) -->
+<section class="testimonials pad-lg">
+  <div class="wrap">
+    <div class="reveal"><div class="kicker-line"><span></span><div class="eyebrow">Walking Beside Them</div></div>
+    <h2 class="section-title">In their words</h2></div>
+    <div class="tgrid">
+      <figure class="tcard reveal"><blockquote>When my marriage ended, I thought my story was over. Kulana reminded me it was only a new chapter, then showed me how to write it.</blockquote><figcaption>Maria · Entrepreneur</figcaption></figure>
+      <figure class="tcard reveal"><blockquote>She does not speak to you from the finish line. She gets in the trenches beside you and helps you rebuild.</blockquote><figcaption>Danielle · Business Owner</figcaption></figure>
+      <figure class="tcard reveal"><blockquote>Kulana connected me to the exact person I needed, and expected nothing back. That is simply who she is.</blockquote><figcaption>Grace · Community Leader</figcaption></figure>
+    </div>
+  </div>
+</section>
+
 <!-- VENTURES -->
 <section id="ventures" class="ventures pad-lg">
   <div class="wrap">
     <div class="reveal">
       <div class="kicker-line"><span></span><div class="eyebrow">The Ventures</div></div>
       <h2 class="section-title">An ecosystem,<br>not a portfolio</h2>
-      <p class="lead lead-muted" style="margin-top:20px;max-width:740px">Development, housing, building materials, distribution, and beauty, built to work together and create both economic opportunity and social impact.</p>
+      <p class="lead lead-muted" style="margin-top:20px;max-width:770px">Every venture exists to create opportunity for someone else: a job, a home, a second chance. Development, housing, building materials, distribution, and beauty, built to work together.</p>
     </div>
     <div class="vgrid">
       <a class="vcard reveal" href="#" target="_blank" rel="noopener"><div class="vk">Real Estate Development</div><h3>Kulana Development</h3><p>Affordable housing and communities that restore dignity, stability, and belonging.</p><div class="go">Explore <span>&rarr;</span></div></a>
@@ -372,6 +417,24 @@ footer .fcopy{font-size:12px;color:#6a6053}
     <div class="books">
       <div class="bookfeat reveal"><div class="cov"><div class="imgfill" data-img="000"></div></div><div><h4>The Woman They Tried to Erase</h4><p>What happens when a woman feels everything she built is being taken away, and how she discovers no one has the power to erase who she is.</p></div></div>
       <div class="bookfeat reveal"><div class="cov"><div class="imgfill" data-img="001"></div></div><div><h4>Rebuilding</h4><p>When the life you built falls apart, how do you rebuild? A companion for the road back: faith, boundaries, confidence, and beginning again.</p></div></div>
+    </div>
+    <div class="waitlist reveal">
+      <div><h3>Be the first to read them</h3><p>These books are for the woman who is starting over. Join the list and I will send you the first chapter and tell you the moment they launch.</p></div>
+      <a href="#connect" class="btn solid">Join the waitlist</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOR YOU -->
+<section id="foryou" class="foryou pad-lg">
+  <div class="wrap">
+    <div class="reveal"><div class="kicker-line"><span></span><div class="eyebrow">For You</div></div>
+    <h2 class="section-title">Start here</h2>
+    <p class="lead lead-muted" style="margin-top:18px;max-width:720px">A few things for the road back, from someone who has walked it.</p></div>
+    <div class="rgrid">
+      <a class="rcard reveal" href="#connect">A letter to the woman starting over<span>Get it soon &rarr;</span></a>
+      <a class="rcard reveal" href="#connect">What rebuilding taught me about worth<span>Get it soon &rarr;</span></a>
+      <a class="rcard reveal" href="#connect">Five things I wish I knew before beginning again<span>Get it soon &rarr;</span></a>
     </div>
   </div>
 </section>
@@ -404,20 +467,27 @@ footer .fcopy{font-size:12px;color:#6a6053}
 <section id="connect" class="connect pad-lg">
   <div class="connect-bg" data-img="037"></div>
   <div class="wrap reveal">
-    <div class="eyebrow" style="margin-bottom:22px">Let's connect</div>
+    <div class="eyebrow" style="margin-bottom:22px">Notes from the Road Back</div>
     <h2>Made for more,<br>together.</h2>
-    <p>I am still an entrepreneur. I am still a dreamer. I am still the connector, and I am always glad to meet people building for purpose.</p>
-    <a href="mailto:hello@kulanapetrovich.com" class="btn solid">Get in touch</a>
+    <p>Encouragement, hard-won lessons, and first looks at the books, for women rebuilding their lives and their ambition.</p>
+    <form class="joinform" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required aria-label="Email address">
+      <button type="submit" class="btn solid">Join the journey</button>
+    </form>
+    <div class="joinnote">No spam, only the journey. Or reach me directly at <a href="mailto:hello@kulanapetrovich.com" style="color:var(--gold-br)">hello@kulanapetrovich.com</a>.</div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
     <div class="fbrand">Kulana Nguyen Petrovich</div>
+    <div class="fsocial"><a href="#" aria-label="Instagram">Instagram</a><a href="#" aria-label="LinkedIn">LinkedIn</a><a href="mailto:hello@kulanapetrovich.com">Email</a></div>
     <div class="froles">Entrepreneur · Investor · Philanthropist · Connector · Woman of Faith</div>
     <div class="fcopy">© 2026 Kulana Nguyen Petrovich. Made for more.</div>
   </div>
 </footer>
+
+<a href="#connect" class="mobile-join">Join the journey</a>
 
 <script>
 const nav=document.getElementById('nav');
